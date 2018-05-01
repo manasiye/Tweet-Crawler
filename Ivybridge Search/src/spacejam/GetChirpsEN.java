@@ -33,10 +33,10 @@ public class GetChirpsEN
 
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setJSONStoreEnabled(true);
-        cb.setOAuthConsumerKey("T4loELM9ePsBxtIi80v8X3CBp");
-        cb.setOAuthConsumerSecret("M0E1t0OxSfRGp2kvVbpH8O3NTc5zpOAtenMzO44iGP7JH7qEr6");
-        cb.setOAuthAccessToken("302027878-EQ4STn4s293XEj44eXCPVAkxv95F6tP9ACZUxPRE");
-        cb.setOAuthAccessTokenSecret("bjpMtj1mRMUCiAk8lNVVIokuAYJnW54aF3kgbv7eeQqJH");
+        cb.setOAuthConsumerKey("oauth-consumer-key");
+        cb.setOAuthConsumerSecret("oauth-consumer-secret");
+        cb.setOAuthAccessToken("oauth-access-token");
+        cb.setOAuthAccessTokenSecret("oauth-access-token-secret");
 
         TwitterFactory tf = new TwitterFactory(cb.build());
 
